@@ -7,6 +7,7 @@ import { expect } from 'chai'
 
 // test list
 // - when no command, rover stays in position
+// - refactor: extract position from direction
 // - when is 0,0 facing North, received forward, rover end in position 0,1 facing North
 
 
