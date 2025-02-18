@@ -1,17 +1,20 @@
 {
-  "name": "kata-rovber",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "mocha test.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "chai": "^5.2.0",
-    "mocha": "^11.1.0"
-  }
+    "name": "kata-rovber",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "mocha test.js",
+        "lint:fix": "prettier --write .",
+        "lint": "prettier --check."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "chai": "^5.2.0",
+        "mocha": "^11.1.0",
+        "prettier": "^3.5.1"
+    }
 }
